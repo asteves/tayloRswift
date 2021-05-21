@@ -138,4 +138,4 @@ ggplot(penguins, aes(species, fill = species)) +
 
 ![`evermore`](https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png)
 
-`evermore` = "#3d2620", "#efefef", "#827d73","#efefef","#3d2620"
+`evermore` = "#3d2620", "#efefef", "#827d73", "#efefef", "#3d2620"
