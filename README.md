@@ -52,12 +52,12 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
 ### Color by numeric variable
 
 Be content with a palette based on
-[Lover](https://en.wikipedia.org/wiki/Lover_(album))
+[Fearless](https://en.wikipedia.org/wiki/Fearless_(Taylor%27s_Version))
 
 ``` r
 ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
   geom_point(size = 4) +
-  scale_color_taylor(discrete = FALSE, palette ="lover")+
+  scale_color_taylor(discrete = FALSE, palette ="fearless")+
   theme_minimal()
 ```
 
@@ -65,27 +65,27 @@ ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
 
 ### Fill by discrete variable
 
-Pop with color from [Speak Now](https://en.wikipedia.org/wiki/Speak_Now)
+Pop with color from [Lover](https://en.wikipedia.org/wiki/Lover_(album))
 
 ``` r
-ggplot(penguins, aes(species, fill = species)) +
+ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   geom_bar() +
   theme_minimal()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_fill_taylor(palette = "speakNow", guide = "none")
+  scale_fill_taylor(palette = "lover", guide = "none")
 ```
 
 <img src="man/figures/README-example-fill-1.png" width="100%" />
 
-Or if you prefer the live recording of the [World
-Tour](https://en.wikipedia.org/wiki/Speak_Now_World_Tour_%E2%80%93_Live)
+Or if you prefer modern Swift,
+[Folklore](https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album))
 
 ``` r
 ggplot(penguins, aes(species, fill = species)) +
   geom_bar() +
   theme_minimal()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_fill_taylor(palette = "speakNowLive", guide = "none")
+  scale_fill_taylor(palette = "folklore", guide = "none")
 ```
 
 <img src="man/figures/README-example-fill2-1.png" width="100%" />
@@ -127,7 +127,7 @@ ggplot(penguins, aes(species, fill = species)) +
 ![`lover`](https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png)
 
 `lover` =
-“\#ff5cc”,“\#b8396b”,“\#48433b”,“\#eccfe8”,“\#76bae0”,“\#b18e7e”
+“\#b8396b”,“\#ffd1d7”,“\#fff5cc”,“\#76bae0”,“\#b28f81”,“\#54483e”
 
 ![`folklore`](https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png)
 
