@@ -18,7 +18,7 @@ Taylor Swift has disavowed.
 You can install the released version of tayloRswift with:
 
 ``` r
-remotes::install_github("tayloRswift")
+remotes::install_github("asteves/tayloRswift")
 ```
 
 ## Examples

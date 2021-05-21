@@ -29,7 +29,7 @@ The package includes palettes for every full album except for those that Taylor 
 You can install the released version of tayloRswift with:
 
 ``` r
-remotes::install_github("tayloRswift")
+remotes::install_github("asteves/tayloRswift")
 ```
 
 ## Examples
