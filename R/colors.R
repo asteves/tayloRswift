@@ -2,16 +2,16 @@
 #'
 #' @export
 swift_palettes <- list(
-  `taylorSwift` = c("#E9D3A7", "#744E2B", "#A9A288", "#177D8C", "#D8E0EF", "#F8F9F8"),
-  `fearless` = c("#FCFCF9", "#B49082", "#98473E", "#F6E3D6", "#07090F", "#BB9859"),
-  `speakNow` = c("#B0F2B4", "#BAF2E9", "#BAD7F2", "#F2BAC9", "#F2E2BA","#A58078", "#FFFFFF", "#A23A82"),
-  `speakNowLive` = c("#090708", "#871D20", "#969696", "#FCE178", "#F6BA62", "#FBD2A9", "#ECECED"),
-  `taylorRed` = c("#AA2146", "#ECE8DC", "#A6A894", "#6E605E", "#897361", "#26233B","#C2C2AE", "#8E354A"),
+  `taylorSwift` = c("#61b6cc", "#577f3f" ,"#e3e9f3", "#0a1605","#fddac7","#81a757"),
+  `fearless` = c("#b68f51","#5b3617","#f7eabe", "#ecd59f","#825c2d"),
+  `speakNow` = c("#ffffff","#4b2671","#5e291c", "#f3d8c4","#f3bf73"),
+  `speakNowLive` = c("#fce178", "#969696", "#871d20", "#090708", "#fafaf9"),
+  `taylorRed` = c("#c2c2ae","#26233b","#7f6557", "#b4a382","#eeeadf"),
   `taylor1989` = c("#b1532a","#84697f","#cbb593","#a88f92","#e8eadf", "#43475b"),
   `reputation` = c("#060606","#6e6e6e","#fefefe","#cacaca", "#060606","#8c8c8c"),
-  `lover` = c("#48433b","#76bae0","#b8396b","#eccfe8","#fff5cc","#114977","#1f79b8","#b8396b"),
+  `lover` = c("#ff5cc","#b8396b","#48433b","#eccfe8","#76bae0","#b18e7e"),
   `folklore` = c("#272727","#5c5c5c","#bababa", "#f8f8f8"),
-  `evermore` = c("#827d73", "#3d2620", "#e89264", "#806837", "#f4f4f4","#dbc2af","#423c47")
+  `evermore` = c("#3d2620", "#efefef", "#827d73","#efefef","#3d2620")
 )
 
 
