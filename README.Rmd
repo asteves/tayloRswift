@@ -101,16 +101,16 @@ ggplot(penguins, aes(species, fill = species)) +
 
 ![`taylorSwift`](https://upload.wikimedia.org/wikipedia/en/1/1f/Taylor_Swift_-_Taylor_Swift.png)
 
-`taylorSwift`= "#61b6cc", "#577f3f" ,"#e3e9f3", "#0a1605","#fddac7","#81a757"
+`taylorSwift`= "#61b6cc", "#577f3f", "#e3e9f3", "#0a1605", "#fddac7", "#81a757"
  
 ![`fearless`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_%28Taylor%27s_Version%29_%282021_album_cover%29_by_Taylor_Swift.png) 
  
 
-`fearless` = "#b68f51","#5b3617","#f7eabe", "#ecd59f","#825c2d"
+`fearless` = "#b68f51", "#5b3617", "#f7eabe", "#ecd59f", "#825c2d"
  
 ![`speakNow`](https://upload.wikimedia.org/wikipedia/en/8/8f/Taylor_Swift_-_Speak_Now_cover.png)
 
-`speakNow` = "#ffffff","#4b2671","#5e291c", "#f3d8c4","#f3bf73"
+`speakNow` = "#ffffff", "#4b2671", "#5e291c", "#f3d8c4", "#f3bf73"
 
 ![`speakNowLive`](https://upload.wikimedia.org/wikipedia/en/e/e9/Taylor_Swift_-_Speak_Now_World_Tour_-_Live.png)
 
@@ -118,23 +118,23 @@ ggplot(penguins, aes(species, fill = species)) +
 
 ![`taylorRed`](https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png) 
 
-`taylorRed` = "#c2c2ae","#26233b","#7f6557", "#b4a382","#eeeadf"
+`taylorRed` = "#c2c2ae", "#26233b", "#7f6557", "#b4a382", "#eeeadf"
 
 ![`taylor1989`](https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png)
 
-`taylor1989` = "#b1532a","#84697f","#cbb593","#a88f92","#e8eadf", "#43475b"
+`taylor1989` = "#b1532a", "#84697f", "#cbb593", "#a88f92", "#e8eadf", "#43475b"
 
 ![`reputation`](https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png)
 
-`reputation` = "#060606","#6e6e6e","#fefefe","#cacaca", "#060606","#8c8c8c"
+`reputation` = "#060606", "#6e6e6e", "#fefefe", "#cacaca", "#060606", "#8c8c8c"
 
 ![`lover`](https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png)
 
-`lover` = "#b8396b","#ffd1d7","#fff5cc","#76bae0","#b28f81","#54483e"
+`lover` = "#b8396b", "#ffd1d7", "#fff5cc", "#76bae0", "#b28f81", "#54483e"
 
 ![`folklore`](https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png)
 
-`folklore`= "#272727","#5c5c5c","#bababa", "#f8f8f8"
+`folklore`= "#272727", "#5c5c5c", "#bababa", "#f8f8f8"
 
 ![`evermore`](https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png)
 
