@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-A ggplot2 color palette based on Taylor Swift Album Covers.
+A ggplot2 color palette based on Taylor Swift Album Covers. Palettes for
+every album except for those that Taylor Swift has disavowed.
 
 ## Installation
 
@@ -16,9 +17,10 @@ You can install the released version of tayloRswift with:
 remotes::install_github("tayloRswift")
 ```
 
-## Swift up your graphs with Taylor Swift palettes.
+## Examples
 
-### Color by discrete variable using default palette based on `1989`
+Color by discrete variable using default palette based on
+[1989](https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album))
 
 ``` r
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
@@ -31,7 +33,8 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
 
 ### Choose a different palette
 
-Reputation works great as a grayscale.
+[Reputation](https://en.wikipedia.org/wiki/Reputation_(Taylor_Swift_album))
+works great as a grayscale.
 
 ``` r
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
@@ -44,16 +47,21 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
 
 ### Color by numeric variable
 
+Be content with a palette based on
+[Lover](https://en.wikipedia.org/wiki/Lover_(album))
+
 ``` r
 ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
-  geom_point(size = 4, alpha = .6) +
-  scale_color_taylor(discrete = FALSE)+
+  geom_point(size = 4) +
+  scale_color_taylor(discrete = FALSE, palette ="lover")+
   theme_minimal()
 ```
 
 <img src="man/figures/README-color-numeric-1.png" width="100%" />
 
 ### Fill by discrete variable
+
+Pop with color from [Speak Now](https://en.wikipedia.org/wiki/Speak_Now)
 
 ``` r
 ggplot(penguins, aes(species, fill = species)) +
@@ -65,7 +73,8 @@ ggplot(penguins, aes(species, fill = species)) +
 
 <img src="man/figures/README-example-fill-1.png" width="100%" />
 
-If you prefer the live recording
+Or if you prefer the live recording of the [World
+Tour](https://en.wikipedia.org/wiki/Speak_Now_World_Tour_%E2%80%93_Live)
 
 ``` r
 ggplot(penguins, aes(species, fill = species)) +
