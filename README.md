@@ -18,7 +18,7 @@ remotes::install_github("tayloRswift")
 
 ## Swift up your graphs with Taylor Swift palettes.
 
-### Color by discrete variable using default palette
+### Color by discrete variable using default palette based on `1989`
 
 ``` r
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
@@ -30,6 +30,8 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
 <img src="man/figures/README-example-default-1.png" width="100%" />
 
 ### Choose a different palette
+
+Reputation works great as a grayscale.
 
 ``` r
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
@@ -54,7 +56,7 @@ ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
 ### Fill by discrete variable
 
 ``` r
-ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
+ggplot(penguins, aes(species, fill = species)) +
   geom_bar() +
   theme_minimal()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
@@ -62,3 +64,15 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
 ```
 
 <img src="man/figures/README-example-fill-1.png" width="100%" />
+
+If you prefer the live recording
+
+``` r
+ggplot(penguins, aes(species, fill = species)) +
+  geom_bar() +
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_taylor(palette = "speakNowLive", guide = "none")
+```
+
+<img src="man/figures/README-example-fill2-1.png" width="100%" />

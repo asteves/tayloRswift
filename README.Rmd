@@ -39,7 +39,7 @@ penguins <- palmerpenguins::penguins %>%
 ```
 
 
-###  Color by discrete variable using default palette
+###  Color by discrete variable using default palette based on `1989`
 
 ```{r example-default}
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
@@ -51,6 +51,8 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
 
 ### Choose a different palette 
 
+Reputation works great as a grayscale. 
+
 ```{r example-palette}
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
   geom_point(size = 4) +
@@ -60,6 +62,7 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
 
 
 ### Color by numeric variable 
+
 ```{r color-numeric}
 ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
   geom_point(size = 4, alpha = .6) +
@@ -70,11 +73,21 @@ ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
 ### Fill by discrete variable
 
 ```{r example-fill}
-ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
+ggplot(penguins, aes(species, fill = species)) +
   geom_bar() +
   theme_minimal()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_fill_taylor(palette = "speakNow", guide = "none")
-
 ```
+
+If you prefer the live recording 
+
+```{r example-fill2}
+ggplot(penguins, aes(species, fill = species)) +
+  geom_bar() +
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_taylor(palette = "speakNowLive", guide = "none")
+```
+
 
