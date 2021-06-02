@@ -21,6 +21,12 @@ You can install the released version of tayloRswift with:
 remotes::install_github("asteves/tayloRswift")
 ```
 
+and load it with
+
+``` r
+library(tayloRswift)
+```
+
 ## Examples
 
 Color by discrete variable using default palette based on
