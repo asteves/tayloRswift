@@ -152,6 +152,6 @@ ggplot(penguins, aes(species, fill = species)) +
 
 ## Related Packages 
 
-For those who work in Python, it was brought to my attention that there is a very cool package by [Josh Borrow](github.com/JBorrow) called [swiftacsmaps](https://github.com/JBorrow/swiftascmaps). 
+For those who work in Python, it was brought to my attention that there is a very cool package by [Josh Borrow](https://github.com/JBorrow) called [swiftacsmaps](https://github.com/JBorrow/swiftascmaps). 
 
-Other inspirations for this package are the tutorial on [creating corporate color palettes](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2) by [Dr. Simon Jackson](https://github.com/drsimonj), which I drew on heavily. I have long used the [wesanderson](https://github.com/karthik/wesanderson) package by [Karthik Ram](karthik), which does a similar task.
+Other inspirations for this package are the tutorial on [creating corporate color palettes](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2) by [Dr. Simon Jackson](https://github.com/drsimonj), which I drew on heavily. I have long used the [wesanderson](https://github.com/karthik/wesanderson) package by [Karthik Ram](https://github.com/karthik), which does a similar task.

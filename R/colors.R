@@ -59,6 +59,9 @@ scale_color_taylor <- function(palette = "taylor1989",
 #' @param ... Additional arguments used to discrete_scale() or scale_fill_gradientn()
 #'   to automatically interpolate between colours.
 #' @export
+#' @examples
+#' scale_fill_taylor("Red")
+#' scale_fill_taylor("Reputation", reverse = TRUE)
 scale_fill_taylor <- function(palette = "taylor1989",
                               discrete = TRUE, reverse = FALSE, ...){
   pal <- swift_pal(palette = palette, reverse = reverse)
