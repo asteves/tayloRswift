@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # tayloRswift
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/asteves/tayloRswift/workflows/R-CMD-check/badge.svg)](https://github.com/asteves/tayloRswift/actions)
 <!-- badges: end -->
 
 A ggplot2 color palette based on Taylor Swift Album Covers. 
@@ -122,9 +123,12 @@ ggplot(penguins, aes(species, fill = species)) +
 
 `speakNowLive` = "#fce178", "#969696", "#871d20", "#090708", "#fafaf9"
 
-![`taylorRed`](https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png) 
+![`Red`](https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png) 
 
-`taylorRed` = "#c2c2ae", "#26233b", "#7f6557", "#b4a382", "#eeeadf"
+`Red` = "#c2c2ae", "#26233b", "#7f6557", "#b4a382", "#eeeadf"
+
+![`taylorRed`](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png)
+`taylorRed` = "#b1532a","#84697f","#cbb593","#a88f92","#e8eadf","#43475b"
 
 ![`taylor1989`](https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png)
 
