@@ -25,6 +25,7 @@ to automatically interpolate between colours.}
 Color scale for Taylor Swift colors
 }
 \examples{
-scale_color_taylor()
-scale_color_taylor(palette = "taylorRed")
+library(ggplot2)
+data <- data.frame(c = LETTERS[1:3],x = c(1,5,7),y = c(5,9,13))
+ggplot(data, aes(x,y,color = c))+geom_point()+scale_color_taylor()
 }

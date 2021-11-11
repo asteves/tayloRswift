@@ -25,6 +25,7 @@ to automatically interpolate between colours.}
 Fill scale for Taylor Swift colors
 }
 \examples{
-scale_fill_taylor("Red")
-scale_fill_taylor("Reputation", reverse = TRUE)
+library(ggplot2)
+data <- data.frame(c = LETTERS[1:3],x = c(1,5,7),y = c(5,9,13))
+ggplot(data, aes(x,fill=c))+geom_bar()+scale_fill_taylor()
 }

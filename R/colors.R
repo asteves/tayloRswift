@@ -41,8 +41,9 @@ swift_pal <- function(palette = "taylor1989", reverse = FALSE, ...){
 #'   to automatically interpolate between colours.
 #' @export
 #' @examples
-#' scale_color_taylor()
-#' scale_color_taylor(palette = "taylorRed")
+#' library(ggplot2)
+#' data <- data.frame(c = LETTERS[1:3],x = c(1,5,7),y = c(5,9,13))
+#' ggplot(data, aes(x,y,color = c))+geom_point()+scale_color_taylor()
 scale_color_taylor <- function(palette = "taylor1989",
                                discrete = TRUE, reverse=FALSE,...){
   pal <- swift_pal(palette = palette, reverse = reverse)
@@ -63,8 +64,9 @@ scale_color_taylor <- function(palette = "taylor1989",
 #'   to automatically interpolate between colours.
 #' @export
 #' @examples
-#' scale_fill_taylor("Red")
-#' scale_fill_taylor("Reputation", reverse = TRUE)
+#' library(ggplot2)
+#' data <- data.frame(c = LETTERS[1:3],x = c(1,5,7),y = c(5,9,13))
+#' ggplot(data, aes(x,fill=c))+geom_bar()+scale_fill_taylor()
 scale_fill_taylor <- function(palette = "taylor1989",
                               discrete = TRUE, reverse = FALSE, ...){
   pal <- swift_pal(palette = palette, reverse = reverse)
