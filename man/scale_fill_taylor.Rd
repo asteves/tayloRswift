@@ -24,3 +24,7 @@ to automatically interpolate between colours.}
 \description{
 Fill scale for Taylor Swift colors
 }
+\examples{
+scale_fill_taylor("Red")
+scale_fill_taylor("Reputation", reverse = TRUE)
+}

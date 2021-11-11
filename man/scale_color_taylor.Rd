@@ -24,3 +24,7 @@ to automatically interpolate between colours.}
 \description{
 Color scale for Taylor Swift colors
 }
+\examples{
+scale_color_taylor()
+scale_color_taylor(palette = "taylorRed")
+}
