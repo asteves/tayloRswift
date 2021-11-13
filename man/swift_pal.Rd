@@ -13,6 +13,9 @@ swift_pal(palette = "taylor1989", reverse = FALSE, ...)
 
 \item{...}{Additional arguments to pass to colorRampPalette()}
 }
+\value{
+A vector of colors
+}
 \description{
 Function to interpolate a color palette
 }

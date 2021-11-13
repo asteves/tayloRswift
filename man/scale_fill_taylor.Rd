@@ -21,6 +21,9 @@ scale_fill_taylor(
 \item{...}{Additional arguments used to discrete_scale() or scale_fill_gradientn()
 to automatically interpolate between colours.}
 }
+\value{
+No return value. Called for side effects
+}
 \description{
 Fill scale for Taylor Swift colors
 }

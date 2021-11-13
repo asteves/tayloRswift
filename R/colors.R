@@ -21,6 +21,8 @@ swift_palettes <- list(
 #' @param palette Character name of palette in tswift_palettes
 #' @param reverse Boolean true if palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
+#'
+#' @return A vector of colors
 #' @export
 swift_pal <- function(palette = "taylor1989", reverse = FALSE, ...){
   pal <- swift_palettes[[palette]]
@@ -39,6 +41,8 @@ swift_pal <- function(palette = "taylor1989", reverse = FALSE, ...){
 #' @param reverse Boolean indicating whether palette should be reversed
 #' @param ... Additional arguments used to discrete_scale() or scale_fill_gradientn()
 #'   to automatically interpolate between colours.
+#'
+#' @return No return value. Called for side effects
 #' @export
 #' @examples
 #' library(ggplot2)
@@ -62,6 +66,8 @@ scale_color_taylor <- function(palette = "taylor1989",
 #' @param reverse Boolean if palette should be reversed
 #' @param ... Additional arguments used to discrete_scale() or scale_fill_gradientn()
 #'   to automatically interpolate between colours.
+#'
+#' @return No return value. Called for side effects
 #' @export
 #' @examples
 #' library(ggplot2)
