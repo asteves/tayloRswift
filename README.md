@@ -17,7 +17,13 @@ Taylor Swift has disavowed.
 
 ## Installation
 
-You can install the released version of tayloRswift with:
+You can install the CRAN version of tayloRswift with:
+
+``` r
+install.packages(c("tayloRswift"))
+```
+
+Alternatively, you can install the development version with:
 
 ``` r
 remotes::install_github("asteves/tayloRswift")
