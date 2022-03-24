@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/asteves/tayloRswift/workflows/R-CMD-check/badge.svg)](https://github.com/asteves/tayloRswift/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/asteves/tayloRswift/branch/main/graph/badge.svg)](https://app.codecov.io/gh/asteves/tayloRswift?branch=main)
 <!-- badges: end -->
 
 A ggplot2 color palette based on Taylor Swift Album Covers.

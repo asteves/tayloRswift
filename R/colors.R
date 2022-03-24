@@ -83,4 +83,3 @@ scale_fill_taylor <- function(palette = "taylor1989",
     ggplot2::scale_fill_gradientn(colours = pal(256),...)
   }
 }
-
