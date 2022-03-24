@@ -3,7 +3,7 @@ pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
   introduction: introduction.html
-last_built: 2022-03-24T05:36Z
+last_built: 2022-03-24T05:41Z
 urls:
   reference: https://asteves.github.io/tayloRswift/reference
   article: https://asteves.github.io/tayloRswift/articles
