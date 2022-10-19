@@ -12,7 +12,11 @@ swift_palettes <- list(
   `reputation` = c("#060606","#6e6e6e","#fefefe","#cacaca", "#060606","#8c8c8c"),
   `lover` = c("#b8396b","#ffd1d7","#fff5cc","#76bae0","#b28f81","#54483e"),
   `folklore` = c("#272727","#5c5c5c","#bababa", "#f8f8f8"),
-  `evermore` = c("#efefef","#827d73", "#3d2620", "#e89264","#474247")
+  `evermore` = c("#efefef","#827d73", "#3d2620", "#e89264","#474247"),
+  `midnights` = c("#586891","#8897A4","#B3A6A3","#2B152C","#F1F3F2"),
+  `midnightsBloodMoon` = c("#651D32", "#80433F", "#BC7B55", "#AD9291", "#E9E8E4"),
+  `midnightsJadeGreen` = c("#E8E7E3", "#CE986B", "#2F3C30", "#0B0B08", "#B98645", "#8D8C7A"),
+  `midnightsMahogany` = c("#AE9975", "#2B181F", "#E2E1DD", "#948266", "#AD8E49")
 )
 
 
