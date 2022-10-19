@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/asteves/tayloRswift/workflows/R-CMD-check/badge.svg)](https://github.com/asteves/tayloRswift/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/asteves/tayloRswift/branch/main/graph/badge.svg)](https://app.codecov.io/gh/asteves/tayloRswift?branch=main)
+
 <!-- badges: end -->
 
 A ggplot2 color palette based on Taylor Swift Album Covers.
@@ -113,7 +114,7 @@ ggplot(penguins, aes(species, fill = species)) +
 `taylorSwift`= “\#61b6cc”, “\#577f3f”, “\#e3e9f3”, “\#0a1605”,
 “\#fddac7”, “\#81a757”
 
-![`fearless`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_%28Taylor%27s_Version%29_%282021_album_cover%29_by_Taylor_Swift.png)
+![`fearless`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_(Taylor's_Version)_(2021_album_cover)_by_Taylor_Swift.png)
 
 `fearless` = “\#b68f51”, “\#5b3617”, “\#f7eabe”, “\#ecd59f”, “\#825c2d”
 
@@ -130,7 +131,7 @@ ggplot(penguins, aes(species, fill = species)) +
 
 `Red` = “\#c2c2ae”, “\#26233b”, “\#7f6557”, “\#b4a382”, “\#eeeadf”
 
-![`taylorRed`](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png)
+![taylorRed](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_(Taylor's_Version).png)
 `taylorRed` =
 “\#b1532a”,“\#84697f”,“\#cbb593”,“\#a88f92”,“\#e8eadf”,“\#43475b”
 
@@ -156,6 +157,22 @@ ggplot(penguins, aes(species, fill = species)) +
 ![`evermore`](https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png)
 
 `evermore` = “\#3d2620”, “\#efefef”, “\#827d73”, “\#efefef”, “\#3d2620”
+
+![`midnights`](https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png)
+
+`midnights` = “\#586891”,“\#8897A4”,“\#B3A6A3”,“\#2B152C”,“\#F1F3F2”
+
+In addition, the package comes with palettes for alternate album covers
+as well.
+
+`midnightsBloodMoon` = “\#651D32”, “\#80433F”, “\#BC7B55”, “\#AD9291”,
+“\#E9E8E4”
+
+`midnightsJadeGreen` = “\#E8E7E3”, “\#CE986B”, “\#2F3C30”, “\#0B0B08”,
+“\#B98645”, “\#8D8C7A”
+
+`midnightsMahogany` = “\#AE9975”, “\#2B181F”, “\#E2E1DD”, “\#948266”,
+“\#AD8E49”
 
 ## Related Packages
 

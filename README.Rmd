@@ -16,15 +16,16 @@ knitr::opts_chunk$set(
 # tayloRswift
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/asteves/tayloRswift/workflows/R-CMD-check/badge.svg)](https://github.com/asteves/tayloRswift/actions)
-[![Codecov test coverage](https://codecov.io/gh/asteves/tayloRswift/branch/main/graph/badge.svg)](https://app.codecov.io/gh/asteves/tayloRswift?branch=main)
+
+[![R-CMD-check](https://github.com/asteves/tayloRswift/workflows/R-CMD-check/badge.svg)](https://github.com/asteves/tayloRswift/actions) [![Codecov test coverage](https://codecov.io/gh/asteves/tayloRswift/branch/main/graph/badge.svg)](https://app.codecov.io/gh/asteves/tayloRswift?branch=main)
+
 <!-- badges: end -->
 
-A ggplot2 color palette based on Taylor Swift Album Covers. 
+A ggplot2 color palette based on Taylor Swift Album Covers.
 
 ![](https://media.giphy.com/media/3o7aCSsc6sx9s92wbm/giphy.gif)
 
-The package includes palettes for every full album except for those that Taylor Swift has disavowed. 
+The package includes palettes for every full album except for those that Taylor Swift has disavowed.
 
 ## Installation
 
@@ -34,15 +35,15 @@ You can install the CRAN version of tayloRswift with:
 install.packages(c("tayloRswift"))
 ```
 
-Alternatively, you can install the development version with: 
+Alternatively, you can install the development version with:
 
 ``` r
 remotes::install_github("asteves/tayloRswift")
 ```
 
-and load it with 
+and load it with
 
-```r
+``` r
 library(tayloRswift)
 ```
 
@@ -56,7 +57,6 @@ penguins <- palmerpenguins::penguins %>%
   tidyr::drop_na()
 ```
 
-
 Color by discrete variable using default palette based on [1989](https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album))
 
 ```{r example-default}
@@ -66,10 +66,9 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
   theme_minimal()
 ```
 
+### Choose a different palette
 
-### Choose a different palette 
-
-[Reputation](https://en.wikipedia.org/wiki/Reputation_(Taylor_Swift_album)) works great as a grayscale. 
+[Reputation](https://en.wikipedia.org/wiki/Reputation_(Taylor_Swift_album)) works great as a grayscale.
 
 ```{r example-palette}
 ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
@@ -78,8 +77,7 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
   theme_minimal()
 ```
 
-
-### Color by numeric variable 
+### Color by numeric variable
 
 Be content with a palette based on [Fearless](https://en.wikipedia.org/wiki/Fearless_(Taylor%27s_Version))
 
@@ -93,6 +91,7 @@ ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
 ### Fill by discrete variable
 
 Pop with color from [Lover](https://en.wikipedia.org/wiki/Lover_(album))
+
 ```{r example-fill}
 ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   geom_bar() +
@@ -111,17 +110,16 @@ ggplot(penguins, aes(species, fill = species)) +
   scale_fill_taylor(palette = "folklore", guide = "none")
 ```
 
-## Palettes 
+## Palettes
 
 ![`taylorSwift`](https://upload.wikimedia.org/wikipedia/en/1/1f/Taylor_Swift_-_Taylor_Swift.png)
 
 `taylorSwift`= "#61b6cc", "#577f3f", "#e3e9f3", "#0a1605", "#fddac7", "#81a757"
- 
-![`fearless`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_%28Taylor%27s_Version%29_%282021_album_cover%29_by_Taylor_Swift.png) 
- 
+
+![`fearless`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_(Taylor's_Version)_(2021_album_cover)_by_Taylor_Swift.png)
 
 `fearless` = "#b68f51", "#5b3617", "#f7eabe", "#ecd59f", "#825c2d"
- 
+
 ![`speakNow`](https://upload.wikimedia.org/wikipedia/en/8/8f/Taylor_Swift_-_Speak_Now_cover.png)
 
 `speakNow` = "#ffffff", "#4b2671", "#5e291c", "#f3d8c4", "#f3bf73"
@@ -130,12 +128,11 @@ ggplot(penguins, aes(species, fill = species)) +
 
 `speakNowLive` = "#fce178", "#969696", "#871d20", "#090708", "#fafaf9"
 
-![`Red`](https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png) 
+![`Red`](https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png)
 
 `Red` = "#c2c2ae", "#26233b", "#7f6557", "#b4a382", "#eeeadf"
 
-![`taylorRed`](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_%28Taylor%27s_Version%29.png)
-`taylorRed` = "#b1532a","#84697f","#cbb593","#a88f92","#e8eadf","#43475b"
+![taylorRed](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_(Taylor's_Version).png) `taylorRed` = "#b1532a","#84697f","#cbb593","#a88f92","#e8eadf","#43475b"
 
 ![`taylor1989`](https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png)
 
@@ -157,8 +154,20 @@ ggplot(penguins, aes(species, fill = species)) +
 
 `evermore` = "#3d2620", "#efefef", "#827d73", "#efefef", "#3d2620"
 
-## Related Packages 
+![`midnights`](https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png)
 
-For those who work in Python, it was brought to my attention that there is a very cool package by [Josh Borrow](https://github.com/JBorrow) called [swiftacsmaps](https://github.com/JBorrow/swiftascmaps). 
+`midnights` = "#586891","#8897A4","#B3A6A3","#2B152C","#F1F3F2"
+
+In addition, the package comes with palettes for alternate album covers as well. 
+
+`midnightsBloodMoon` = "#651D32", "#80433F", "#BC7B55", "#AD9291", "#E9E8E4"
+
+`midnightsJadeGreen` = "#E8E7E3", "#CE986B", "#2F3C30", "#0B0B08", "#B98645", "#8D8C7A"
+
+`midnightsMahogany` = "#AE9975", "#2B181F", "#E2E1DD", "#948266", "#AD8E49"
+
+## Related Packages
+
+For those who work in Python, it was brought to my attention that there is a very cool package by [Josh Borrow](https://github.com/JBorrow) called [swiftacsmaps](https://github.com/JBorrow/swiftascmaps).
 
 Other inspirations for this package are the tutorial on [creating corporate color palettes](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2) by [Dr. Simon Jackson](https://github.com/drsimonj), which I drew on heavily. I have long used the [wesanderson](https://github.com/karthik/wesanderson) package by [Karthik Ram](https://github.com/karthik), which does a similar task.
