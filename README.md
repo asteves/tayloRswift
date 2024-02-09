@@ -138,6 +138,7 @@ ggplot(penguins, aes(species, fill = species)) +
 `Red` = #B11E4A", "#A14053", "#8E7F6C", "#1B1C38", "EBEDDF", "9D8B6D") 
 
 ![taylorRed](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_(Taylor's_Version).png)
+
 `taylorRed` = “\#b1532a”,“\#84697f”,“\#cbb593”,“\#a88f92”,“\#e8eadf”,“\#43475b”
 
 ![`taylor1989`](https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png)
@@ -145,6 +146,7 @@ ggplot(penguins, aes(species, fill = species)) +
 `taylor1989` = “\#b1532a”, “\#84697f”, “\#cbb593”, “\#a88f92”, “\#e8eadf”, “\#43475b”
 
 ![`TS1989`](https://upload.wikimedia.org/wikipedia/en/d/d5/Taylor_Swift_-_1989_%28Taylor%27s_Version%29.png)
+
 `TS1989` = "\#D9523F", "\#D1CFC2", "\#ACBCCC","\#588383","\#AA6F4E","\#8898A1"
 
 In addition, the package comes with palettes for alternate album covers
@@ -152,7 +154,7 @@ as well.
 
 `SunriseBoulevard1989` = "\#2B3849","\#6C1414","\#C8AA86","\#D0C9B9","\#888D50","\#313C40"
 
-`AquamarineGreen1989` = "\#101C18", "\#C19298", "\#5B96A5","\#90A5A8","\#9A241F","#938C7C"
+`AquamarineGreen1989` = "\#101C18", "\#C19298", "\#5B96A5","\#90A5A8","\#9A241F","\#938C7C"
 
 `RoseGardenPink1989` = "\#8A9DAC", "\#9E948A","\#DD8253","\#B4AEAF","\#B6723C","\#7F8491"
 
