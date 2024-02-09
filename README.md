@@ -111,12 +111,15 @@ ggplot(penguins, aes(species, fill = species)) +
 
 ![`taylorSwift`](https://upload.wikimedia.org/wikipedia/en/1/1f/Taylor_Swift_-_Taylor_Swift.png)
 
-`taylorSwift`= “\#61b6cc”, “\#577f3f”, “\#e3e9f3”, “\#0a1605”,
-“\#fddac7”, “\#81a757”
+`taylorSwift`= “\#61b6cc”, “\#577f3f”, “\#e3e9f3”, “\#0a1605”, “\#fddac7”, “\#81a757”
 
-![`fearless`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_(Taylor's_Version)_(2021_album_cover)_by_Taylor_Swift.png)
+![`fearless`](https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png)
 
-`fearless` = “\#b68f51”, “\#5b3617”, “\#f7eabe”, “\#ecd59f”, “\#825c2d”
+`fearless` = "\#DCBE83", "\#88642C", "\#EDE7D9", "\#EFD998", "\#49260A", "\#EFB391"
+
+![`fearlessTV`](https://upload.wikimedia.org/wikipedia/en/5/5b/Fearless_(Taylor's_Version)_(2021_album_cover)_by_Taylor_Swift.png)
+
+`fearlessTV` = “\#b68f51”, “\#5b3617”, “\#f7eabe”, “\#ecd59f”, “\#825c2d”
 
 ![`speakNow`](https://upload.wikimedia.org/wikipedia/en/8/8f/Taylor_Swift_-_Speak_Now_cover.png)
 
@@ -124,31 +127,44 @@ ggplot(penguins, aes(species, fill = species)) +
 
 ![`speakNowLive`](https://upload.wikimedia.org/wikipedia/en/e/e9/Taylor_Swift_-_Speak_Now_World_Tour_-_Live.png)
 
-`speakNowLive` = “\#fce178”, “\#969696”, “\#871d20”, “\#090708”,
-“\#fafaf9”
+`speakNowLive` = “\#fce178”, “\#969696”, “\#871d20”, “\#090708”, “\#fafaf9”
+
+![`speakNowTV`](https://upload.wikimedia.org/wikipedia/en/5/5b/Taylor_Swift_-_Speak_Now_%28Taylor%27s_Version%29.png)
+
+`speakNowTV` = "#351E2E","#481E52","#AE6D4F","#884885","#C44D56","#A0659F"
 
 ![`Red`](https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png)
 
-`Red` = “\#c2c2ae”, “\#26233b”, “\#7f6557”, “\#b4a382”, “\#eeeadf”
+`Red` = #B11E4A", "#A14053", "#8E7F6C", "#1B1C38", "EBEDDF", "9D8B6D") 
 
 ![taylorRed](https://upload.wikimedia.org/wikipedia/en/4/47/Taylor_Swift_-_Red_(Taylor's_Version).png)
-`taylorRed` =
-“\#b1532a”,“\#84697f”,“\#cbb593”,“\#a88f92”,“\#e8eadf”,“\#43475b”
+
+`taylorRed` = “\#b1532a”,“\#84697f”,“\#cbb593”,“\#a88f92”,“\#e8eadf”,“\#43475b”
 
 ![`taylor1989`](https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png)
 
-`taylor1989` = “\#b1532a”, “\#84697f”, “\#cbb593”, “\#a88f92”,
-“\#e8eadf”, “\#43475b”
+`taylor1989` = “\#b1532a”, “\#84697f”, “\#cbb593”, “\#a88f92”, “\#e8eadf”, “\#43475b”
+
+![`TS1989`](https://upload.wikimedia.org/wikipedia/en/d/d5/Taylor_Swift_-_1989_%28Taylor%27s_Version%29.png)
+
+`TS1989` = "\#D9523F", "\#D1CFC2", "\#ACBCCC","\#588383","\#AA6F4E","\#8898A1"
+
+In addition, the package comes with palettes for alternate album covers
+as well.
+
+`SunriseBoulevard1989` = "\#2B3849","\#6C1414","\#C8AA86","\#D0C9B9","\#888D50","\#313C40"
+
+`AquamarineGreen1989` = "\#101C18", "\#C19298", "\#5B96A5","\#90A5A8","\#9A241F","\#938C7C"
+
+`RoseGardenPink1989` = "\#8A9DAC", "\#9E948A","\#DD8253","\#B4AEAF","\#B6723C","\#7F8491"
 
 ![`reputation`](https://upload.wikimedia.org/wikipedia/en/f/f2/Taylor_Swift_-_Reputation.png)
 
-`reputation` = “\#060606”, “\#6e6e6e”, “\#fefefe”, “\#cacaca”,
-“\#060606”, “\#8c8c8c”
+`reputation` = “\#060606”, “\#6e6e6e”, “\#fefefe”, “\#cacaca”, “\#060606”, “\#8c8c8c”
 
 ![`lover`](https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png)
 
-`lover` = “\#b8396b”, “\#ffd1d7”, “\#fff5cc”, “\#76bae0”, “\#b28f81”,
-“\#54483e”
+`lover` = “\#b8396b”, “\#ffd1d7”, “\#fff5cc”, “\#76bae0”, “\#b28f81”, “\#54483e”
 
 ![`folklore`](https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png)
 
@@ -165,14 +181,15 @@ ggplot(penguins, aes(species, fill = species)) +
 In addition, the package comes with palettes for alternate album covers
 as well.
 
-`midnightsBloodMoon` = “\#651D32”, “\#80433F”, “\#BC7B55”, “\#AD9291”,
-“\#E9E8E4”
+`midnightsBloodMoon` = “\#651D32”, “\#80433F”, “\#BC7B55”, “\#AD9291”, “\#E9E8E4”
 
-`midnightsJadeGreen` = “\#E8E7E3”, “\#CE986B”, “\#2F3C30”, “\#0B0B08”,
-“\#B98645”, “\#8D8C7A”
+`midnightsJadeGreen` = “\#E8E7E3”, “\#CE986B”, “\#2F3C30”, “\#0B0B08”, “\#B98645”, “\#8D8C7A”
 
-`midnightsMahogany` = “\#AE9975”, “\#2B181F”, “\#E2E1DD”, “\#948266”,
-“\#AD8E49”
+`midnightsMahogany` = “\#AE9975”, “\#2B181F”, “\#E2E1DD”, “\#948266”, “\#AD8E49”
+
+![`TSTTPD`](https://upload.wikimedia.org/wikipedia/en/6/6e/Taylor_Swift_%E2%80%93_The_Tortured_Poets_Department_%28album_cover%29.png)
+
+`TSTTPD` = "\#8D8171", "\#C6C0B8", "\#49433B", "\#FDFDFD", "\#322B25","\#ADA69C"
 
 ## Related Packages
 
