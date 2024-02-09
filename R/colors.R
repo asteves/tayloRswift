@@ -4,11 +4,15 @@
 swift_palettes <- list(
   `taylorSwift` = c("#61b6cc", "#577f3f" ,"#e3e9f3", "#0a1605","#fddac7","#81a757"),
   `fearless` = c("#b68f51","#5b3617","#f7eabe", "#ecd59f","#825c2d"),
+  `fearlessTV` = c("#5C3C24", "#E3D1A3", "#BC9C64", "#FDFAF6", "#997A4B", "#AC9167")
   `speakNow` = c("#4b2671","#5e291c", "#f3d8c4","#f3bf73","#ffffff"),
+  `speakNowTV` = c("#351E2E","#481E52","#AE6D4F","#884885","#C44D56","#A0659F")
   `speakNowLive` = c("#fce178", "#969696", "#871d20", "#090708", "#fafaf9"),
-  `Red` = c("#c2c2ae","#26233b","#7f6557", "#b4a382","#eeeadf"),
+  `Red` = c("#B11E4A", "#A14053", "#8E7F6C", "#1B1C38", "EBEDDF", "9D8B6D") 
   `taylorRed` = c("#BFBCAA", "#A6836F", "#73564C", "#731803", "#400303"),
   `taylor1989` = c("#b1532a","#84697f","#cbb593","#a88f92","#e8eadf", "#43475b"),
+  `TS1989` = c("#D9523F", "#D1CFC2", "#ACBCCC","#588383","#AA6F4E","#8898A1" )
+  `TS1989B` = c("#2B3849","#6C1414","#C8AA86","#D0C9B9","#888D50","#313C40")
   `reputation` = c("#060606","#6e6e6e","#fefefe","#cacaca", "#060606","#8c8c8c"),
   `lover` = c("#b8396b","#ffd1d7","#fff5cc","#76bae0","#b28f81","#54483e"),
   `folklore` = c("#272727","#5c5c5c","#bababa", "#f8f8f8"),
@@ -17,6 +21,7 @@ swift_palettes <- list(
   `midnightsBloodMoon` = c("#651D32", "#80433F", "#BC7B55", "#AD9291", "#E9E8E4"),
   `midnightsJadeGreen` = c("#E8E7E3", "#CE986B", "#2F3C30", "#0B0B08", "#B98645", "#8D8C7A"),
   `midnightsMahogany` = c("#AE9975", "#2B181F", "#E2E1DD", "#948266", "#AD8E49")
+  `TSTTPS` = c("#8D8171", "#C6C0B8", "#49433B", "#FDFDFD", "#322B25","#ADA69C")
 )
 
 
