@@ -23,7 +23,8 @@ swift_palettes <- list(
   `midnightsBloodMoon` = c("#651D32", "#80433F", "#BC7B55", "#AD9291", "#E9E8E4"),
   `midnightsJadeGreen` = c("#E8E7E3", "#CE986B", "#2F3C30", "#0B0B08", "#B98645", "#8D8C7A"),
   `midnightsMahogany` = c("#AE9975", "#2B181F", "#E2E1DD", "#948266", "#AD8E49"),
-  `TSTTPD` = c("#8D8171", "#C6C0B8", "#49433B", "#FDFDFD", "#322B25","#ADA69C")
+  `TSTTPD` = c("#8D8171", "#C6C0B8", "#49433B", "#FDFDFD", "#322B25","#ADA69C"),
+  `TLOAS` = c("#ad3218", "#da4f1f", "#eb8246", "#f1b87a", "#948748", "#696f3b", "#d0dab9", "#3e5c38", "#4e8362", "#6cae90")
 )
 
 
